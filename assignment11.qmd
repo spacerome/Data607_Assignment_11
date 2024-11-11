@@ -1,5 +1,5 @@
 ---
-title: "Assignment 11: Scenario Design Analysis of Steam's Recommender System"
+title: "Data607: Scenario Design Analysis of Steam's Recommender System"
 author: "Anthony Josue Roman"
 format: html
 editor: visual
