@@ -1,0 +1,65 @@
+---
+title: "Assignment 11: Scenario Design Analysis of Steam's Recommender System"
+author: "Anthony Josue Roman"
+format: html
+editor: visual
+---
+
+## 1. Introduction
+
+Steam, developed by Valve Corporation, is a leading digital distribution platform for video games. With an extensive library of titles, Steam employs sophisticated recommender systems to assist users in discovering games that align with their interests. This analysis explores the design and functionality of Steam's recommendation mechanisms.
+
+## 2. Scenario Design Analysis
+
+### Target Users and Their Goals
+
+Steam caters to a diverse user base, including:
+
+- Casual gamers seeking popular and accessible titles.
+- Hardcore gamers interested in niche or genre-specific games.
+- Users looking for personalized game recommendations based on their play history.
+
+### Organizational Goals
+
+Valve aims to:
+
+- Enhance user engagement by facilitating game discovery.
+- Increase sales through personalized recommendations.
+- Support indie developers by promoting lesser-known titles.
+
+### How the System Helps Achieve These Goals
+
+Steam's recommender system:
+
+- Analyzes user behavior and preferences to suggest relevant games.
+- Utilizes machine learning algorithms to provide personalized recommendations.
+- Offers features like the Interactive Recommender to help users find hidden gems.
+
+## 3. Reverse Engineering the Recommender System
+
+### Interface Analysis
+
+Steam's storefront includes personalized sections such as "Recommended for You" and "Because You Played," indicating the use of collaborative filtering and content-based filtering techniques. The Interactive Recommender allows users to adjust parameters like popularity and release date to refine suggestions.
+
+### Algorithm Insights
+
+Steam employs a combination of:
+
+- **Collaborative Filtering**: Recommends games based on similarities between users' play histories.
+- **Content-Based Filtering**: Suggests games with similar attributes to those a user has played.
+- **Machine Learning Models**: The Interactive Recommender uses neural networks to analyze playtime data and generate personalized suggestions. :contentReference[oaicite:0]{index=0}
+
+## 4. Recommendations for Improvement
+
+- **Enhanced User Feedback**: Allow users to provide more detailed feedback on recommendations to improve accuracy.
+- **Context-Aware Suggestions**: Incorporate factors like time of day or current gaming trends to offer more relevant recommendations.
+- **Social Integration**: Enable users to see friends' game libraries and recommendations to facilitate social discovery.
+
+## 5. Conclusion
+
+Steam's recommender system plays a crucial role in user engagement and satisfaction by providing personalized game suggestions. Implementing enhancements such as detailed user feedback mechanisms and context-aware recommendations could further improve the system's effectiveness.
+
+## References
+
+- Valve Corporation. "Introducing The Steam Interactive Recommender." *Steam News*, 2019. :contentReference[oaicite:1]{index=1}
+- Chalk, Andy. "Steam's Interactive Recommender is now built into the store to help you find hidden gems." *PC Gamer*, 2020. :contentReference[oaicite:2]{index=2}
